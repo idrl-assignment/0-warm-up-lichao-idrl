@@ -1,5 +1,5 @@
 import numpy as np
-from PIL import Image # TODO: import ...
+from PIL import Image  # TODO: import ...
 
 
 def generate_random_matrix(m, n):
