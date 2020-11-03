@@ -1,12 +1,16 @@
-# TODO: import ...
+import numpy as np
+from PIL import Image# TODO: import ...
 
 
 def generate_random_matrix(m, n):
-    raise NotImplementedError  # TODO: 删除该行，实现该函数功能
+    matrix=np.random.randint(0,2(m,n))
+    return matrix
 
 
 def save_matrix(matrix, file_name):
-    raise NotImplementedError  # TODO: 删除该行，实现该函数功能
+    im=Image.fromarray(matrix)
+    im.save("example.jpg")
+    return
 
 
 if __name__ == "__main__":
