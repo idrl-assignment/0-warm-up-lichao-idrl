@@ -1,4 +1,4 @@
 pytest
 numpy 
-from PIL import Image
+Image
 # TODO: add additional package
