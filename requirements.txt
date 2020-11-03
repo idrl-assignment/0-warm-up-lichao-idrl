@@ -1,3 +1,3 @@
-import numpy as np
+import numpy 
 from PIL import Image
 # TODO: add additional package
