@@ -1,3 +1,4 @@
-import numpy 
+pytest
+numpy 
 from PIL import Image
 # TODO: add additional package
