@@ -1,5 +1,5 @@
 import numpy as np
-from PIL import Image  # TODO: import ...
+import matplotlib.pyplot as plt  # TODO: import ...
 
 
 def generate_random_matrix(m, n):
@@ -8,9 +8,9 @@ def generate_random_matrix(m, n):
 
 
 def save_matrix(matrix, file_name):
-    im = Image.fromarray(matrix)
-    im.save("example.png")
-    return
+    plt.imshow(matrix)
+    plt.savefig(file_name)
+    plt.show()
 
 
 if __name__ == "__main__":
